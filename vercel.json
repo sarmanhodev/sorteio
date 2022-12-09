@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "./index.py",
+        "src": "./sorteio.py",
         "use": "@vercel/python"
       }
     ],
