@@ -1,15 +1,7 @@
 {
     "version": 2,
     "builds": [
-      {
-        "src": "./sorteio.py",
-        "use": "@vercel/python"
-      }
+        {"src": "sorteio.py", "use": "@vercel/python"}
     ],
-    "routes": [
-      {
-        "src": "/sorteio(.*)",
-        "dest": "/sorteio"
-      }
-    ]
-  }
+    "routes": [{"src": "/(.*)", "dest": "sorteio.py"}]
+}
